@@ -1,0 +1,46 @@
+brew install automake
+brew install autoconf  
+
+https://github.com/pipermerriam/eth-testrpc
+
+
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:ethereum/ethereum
+sudo add-apt-repository ppa:ethereum/ethereum-qt
+sudo add-apt-repository ppa:ethereum/ethereum-dev
+sudo apt-get update
+sudo apt-get install cpp-ethereum
+apt-get install npm
+
+https://github.com/ethereum/ethereum-console
+
+"ln -s /usr/bin/nodejs /usr/bin/node"
+
+$ geth
+
+
+Usage:
+ethconsole [javascript file] [ipc socket]	// WHAT DOES THIS EVEN MEAN?!
+Arguments:
+<ipc socket path> connect to the given ipc socket (use ipc://<path> if it does not end with .ipc)
+<javascript file> execute the given javascript file that has to end in .js non-interactively.
+The script has to call process.exit() in order to terminate the console.
+Next  Previous
+
+
+Lessons Learned:
+- OpenBazaar is an Decentralized Marketplace
+- Creates a socket via random port.
+	var getRandomPort = function() {
+	var port = Math.floor((Math.random() * 10000) + 30000);
+- JavaScript can be used outside of XSS and reverse-shell uploads
+- Google Chrome Deveoloper Tool
+	- Inspect elements
+	- View Client-Server Errors
+	- View Params for HTTP Requests (Similar to Burp Suite)
+- Unicode Strings received from python library requests
+- truffle is a nice management and compiling system for Ethereum
+- Download bitcoin.git to create addresses is the easiest way to get public addresses.
+- Ethereum breaks a lot. (Tried across 2 OS, both had dependencies and docuemtnation areas that broke)
+- Ethereum compiles .sol files into .js
+- Depending on the beehive, honey usually takes about 6 weeks to be harvastable.
