@@ -1,0 +1,14 @@
+# Testing Ubuntu 
+# Ubuntu:	16.04.2 LTS
+# Release:	16.04
+# Codename:	xenial
+#
+add-apt-repository ppa:ethereum/ethereum
+add-apt-repository ppa:ethereum/ethereum-qt
+add-apt-repository ppa:ethereum/ethereum-dev
+apt-get install testrpc software-properties-common cpp-ethereum git npm -y
+apt-get update
+git clone https://github.com/ethereum-console.git
+cd ethereum-console
+npm install -g ethereum-console
+ln -s /usr/bin/nodejs /usr/bin/node
